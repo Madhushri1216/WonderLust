@@ -21,7 +21,6 @@ const reviewsRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
 //connecting to mongoDB
-// const MONGO_URL = "mongodb://127.0.0.1:27017/wonderlustDb";
 const dbUrl = process.env.ATLASDB_URL;
 
 main()
